@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.view.View;
 
 import cn.tommyfen.mvvmsample.view.LayoutBindExpActivity;
+import cn.tommyfen.mvvmsample.view.ObservableDataActivity;
 
 /**
  * @author : tommy
@@ -16,6 +17,12 @@ public class ViewModel {
     public void startLayoutBindExp(View view) {
         Context context = view.getContext();
         Intent intent = new Intent(context, LayoutBindExpActivity.class);
+        context.startActivity(intent);
+    }
+
+    public void startObservableData(View view) {
+        Context context = view.getContext();
+        Intent intent = new Intent(context, ObservableDataActivity.class);
         context.startActivity(intent);
     }
 }

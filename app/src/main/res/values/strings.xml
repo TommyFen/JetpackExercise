@@ -6,4 +6,10 @@
     <string name="change_self">change self</string>
     <string name="unchecked">unchecked</string>
     <string name="long_click">Long Click</string>
+    <string name="change_num">change num</string>
+    <string name="change_content">change content</string>
+    <string name="change_first_name">chang first name</string>
+    <string name="change_last_name">change last name</string>
+    <string name="change_user_name">change user name</string>
+    <string name="change_all">change all</string>
 </resources>
