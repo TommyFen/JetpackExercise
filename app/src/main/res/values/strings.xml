@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MVVMSample</string>
+    <string name="bind_exp">binding expressions</string>
+    <string name="observable_data">observable data</string>
+    <string name="change_title">change title</string>
+    <string name="change_self">change self</string>
+    <string name="unchecked">unchecked</string>
+    <string name="long_click">Long Click</string>
+</resources>
