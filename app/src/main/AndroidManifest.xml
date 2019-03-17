@@ -21,15 +21,16 @@
         <activity
             android:name=".view.LayoutBindExpActivity"
             android:label="LayoutBindExp"
-            android:parentActivityName=".MainActivity">
-
-        </activity>
-
-        <activity android:name=".view.ObservableDataActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".view.ObservableDataActivity"
             android:label="ObservableData"
-            android:parentActivityName=".MainActivity">
+            android:parentActivityName=".MainActivity" />
 
-        </activity>
+        <activity
+            android:name=".view.BindingAdapterActivity"
+            android:label="BindingAdapter"
+            android:parentActivityName=".MainActivity" />
 
     </application>
 

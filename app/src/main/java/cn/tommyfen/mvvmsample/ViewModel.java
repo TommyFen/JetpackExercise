@@ -4,6 +4,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.view.View;
 
+import cn.tommyfen.mvvmsample.view.BindingAdapterActivity;
 import cn.tommyfen.mvvmsample.view.LayoutBindExpActivity;
 import cn.tommyfen.mvvmsample.view.ObservableDataActivity;
 
@@ -23,6 +24,12 @@ public class ViewModel {
     public void startObservableData(View view) {
         Context context = view.getContext();
         Intent intent = new Intent(context, ObservableDataActivity.class);
+        context.startActivity(intent);
+    }
+
+    public void startBindingAdapter(View view) {
+        Context context = view.getContext();
+        Intent intent = new Intent(context, BindingAdapterActivity.class);
         context.startActivity(intent);
     }
 }

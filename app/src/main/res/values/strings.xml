@@ -12,4 +12,6 @@
     <string name="change_last_name">change last name</string>
     <string name="change_user_name">change user name</string>
     <string name="change_all">change all</string>
+    <string name="bind_adapter">binding adapter</string>
+    <string name="bind_custom_adapter">bind custom adapter</string>
 </resources>
