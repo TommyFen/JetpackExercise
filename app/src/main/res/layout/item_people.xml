@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="people"
+            type="cn.tommyfen.mvvmsample.bean.People" />
+
+    </data>
+
+    <RelativeLayout
+        android:id="@+id/item_people"
+        android:layout_width="match_parent"
+        android:layout_margin="2dp"
+        android:background="@android:color/background_light"
+        android:layout_height="64dp">
+
+        <ImageView
+            android:id="@+id/iv_avatar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="12dp"
+            android:src="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/iv_avatar"
+            tools:text="Tommy Guo"
+            android:textSize="20sp"
+            android:text="@{people.fullName}"
+            android:layout_marginTop="4dp"/>
+
+        <TextView
+            android:id="@+id/tv_introduce"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/iv_avatar"
+            android:layout_alignParentBottom="true"
+            android:maxLines="1"
+            android:layout_marginBottom="4dp"
+            android:layout_marginEnd="8dp"
+            android:text="@{people.introduce}"
+            android:ellipsize="end"
+            tools:text="Android developer, Python, Kotlin language developer"/>
+
+
+    </RelativeLayout>
+</layout>

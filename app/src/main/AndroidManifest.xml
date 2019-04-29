@@ -26,10 +26,14 @@
             android:name=".view.ObservableDataActivity"
             android:label="ObservableData"
             android:parentActivityName=".MainActivity" />
-
         <activity
             android:name=".view.BindingAdapterActivity"
             android:label="BindingAdapter"
+            android:parentActivityName=".MainActivity" />
+
+        <activity
+            android:name=".view.RecyclerViewActivity"
+            android:label="RecyclerView"
             android:parentActivityName=".MainActivity" />
 
     </application>

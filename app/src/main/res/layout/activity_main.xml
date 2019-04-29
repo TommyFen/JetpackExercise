@@ -65,6 +65,12 @@
                 android:onClick="@{(view) -> viewModel.startBindingAdapter(view)}"
                 android:text="@string/bind_adapter"/>
 
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="64dp"
+                android:textAllCaps="false"
+                android:text="@string/bind_recycler_view"
+                android:onClick="@{(view) -> viewModel.startBindingRecyclerView(view)}"/>
 
 
         </LinearLayout>

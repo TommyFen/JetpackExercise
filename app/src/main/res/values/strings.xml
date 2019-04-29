@@ -14,4 +14,5 @@
     <string name="change_all">change all</string>
     <string name="bind_adapter">binding adapter</string>
     <string name="bind_custom_adapter">bind custom adapter</string>
+    <string name="bind_recycler_view">binding recyclerView</string>
 </resources>

@@ -7,6 +7,7 @@ import android.view.View;
 import cn.tommyfen.mvvmsample.view.BindingAdapterActivity;
 import cn.tommyfen.mvvmsample.view.LayoutBindExpActivity;
 import cn.tommyfen.mvvmsample.view.ObservableDataActivity;
+import cn.tommyfen.mvvmsample.view.RecyclerViewActivity;
 
 /**
  * @author : tommy
@@ -30,6 +31,12 @@ public class ViewModel {
     public void startBindingAdapter(View view) {
         Context context = view.getContext();
         Intent intent = new Intent(context, BindingAdapterActivity.class);
+        context.startActivity(intent);
+    }
+
+    public void startBindingRecyclerView(View view) {
+        Context context = view.getContext();
+        Intent intent = new Intent(context, RecyclerViewActivity.class);
         context.startActivity(intent);
     }
 }
