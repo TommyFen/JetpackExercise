@@ -5,7 +5,8 @@ import androidx.databinding.Bindable;
 
 import java.io.Serializable;
 
-import cn.tommyfen.mvvmsample.BR;
+import cn.tommyfen.jetpackexercise.BR;
+
 
 /**
  * @author : tommy

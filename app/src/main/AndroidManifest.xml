@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="cn.tommyfen.mvvmsample">
+    package="cn.tommyfen.jetpackexercise">
 
     <application
         android:allowBackup="true"
@@ -11,31 +11,33 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".MainActivity">
+        <activity android:name="com.tommyfen.jetpackexercise.ViewBindingTestActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name="cn.tommyfen.mvvmsample.MainActivity">
+
+        </activity>
         <activity
-            android:name=".view.LayoutBindExpActivity"
+            android:name="cn.tommyfen.mvvmsample.view.LayoutBindExpActivity"
             android:label="LayoutBindExp"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName="cn.tommyfen.mvvmsample.MainActivity" />
         <activity
-            android:name=".view.ObservableDataActivity"
+            android:name="cn.tommyfen.mvvmsample.view.ObservableDataActivity"
             android:label="ObservableData"
-            android:parentActivityName=".MainActivity" />
+            android:parentActivityName="cn.tommyfen.mvvmsample.MainActivity" />
         <activity
-            android:name=".view.BindingAdapterActivity"
+            android:name="cn.tommyfen.mvvmsample.view.BindingAdapterActivity"
             android:label="BindingAdapter"
-            android:parentActivityName=".MainActivity" />
-
+            android:parentActivityName="cn.tommyfen.mvvmsample.MainActivity" />
         <activity
-            android:name=".view.RecyclerViewActivity"
+            android:name="cn.tommyfen.mvvmsample.view.RecyclerViewActivity"
             android:label="RecyclerView"
-            android:parentActivityName=".MainActivity" />
-
+            android:parentActivityName="cn.tommyfen.mvvmsample.MainActivity" />
     </application>
 
 </manifest>

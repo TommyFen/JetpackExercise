@@ -5,7 +5,8 @@ import androidx.databinding.Bindable;
 import androidx.databinding.ObservableField;
 import androidx.databinding.ObservableInt;
 
-import cn.tommyfen.mvvmsample.BR;
+import cn.tommyfen.jetpackexercise.BR;
+
 
 /**
  * @author : tommy

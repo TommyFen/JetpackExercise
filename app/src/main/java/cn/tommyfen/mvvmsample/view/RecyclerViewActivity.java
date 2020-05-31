@@ -8,10 +8,10 @@ import android.os.Bundle;
 import java.util.ArrayList;
 import java.util.List;
 
-import cn.tommyfen.mvvmsample.R;
+import cn.tommyfen.jetpackexercise.R;
+import cn.tommyfen.jetpackexercise.databinding.ActivityRecyclerViewBinding;
 import cn.tommyfen.mvvmsample.adapter.PeopleAdapter;
 import cn.tommyfen.mvvmsample.bean.People;
-import cn.tommyfen.mvvmsample.databinding.ActivityRecyclerViewBinding;
 import cn.tommyfen.mvvmsample.view_model.ViewModel4;
 
 public class RecyclerViewActivity extends AppCompatActivity {

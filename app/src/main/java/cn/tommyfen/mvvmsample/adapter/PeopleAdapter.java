@@ -7,9 +7,10 @@ import android.view.LayoutInflater;
 import android.view.ViewGroup;
 import java.util.Collections;
 import java.util.List;
-import cn.tommyfen.mvvmsample.R;
+
+import cn.tommyfen.jetpackexercise.R;
+import cn.tommyfen.jetpackexercise.databinding.ItemPeopleBinding;
 import cn.tommyfen.mvvmsample.bean.People;
-import cn.tommyfen.mvvmsample.databinding.ItemPeopleBinding;
 
 /**
  * @author : tommy

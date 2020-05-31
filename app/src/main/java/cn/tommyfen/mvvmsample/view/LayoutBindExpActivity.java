@@ -5,8 +5,8 @@ import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
-import cn.tommyfen.mvvmsample.R;
-import cn.tommyfen.mvvmsample.databinding.ActivityLayoutBindExpBinding;
+import cn.tommyfen.jetpackexercise.R;
+import cn.tommyfen.jetpackexercise.databinding.ActivityLayoutBindExpBinding;
 import cn.tommyfen.mvvmsample.view_model.ViewModel1;
 
 public class LayoutBindExpActivity extends AppCompatActivity {

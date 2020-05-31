@@ -4,7 +4,9 @@ import androidx.databinding.DataBindingUtil;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
-import cn.tommyfen.mvvmsample.databinding.ActivityMainBinding;
+import cn.tommyfen.jetpackexercise.R;
+import cn.tommyfen.jetpackexercise.databinding.ActivityMainBinding;
+
 
 /**
  * @author tommy

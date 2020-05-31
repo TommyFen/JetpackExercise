@@ -5,7 +5,7 @@ import android.graphics.Color;
 import androidx.core.content.ContextCompat;
 import android.view.View;
 
-import cn.tommyfen.mvvmsample.R;
+import cn.tommyfen.jetpackexercise.R;
 
 /**
  * @author : tommy
