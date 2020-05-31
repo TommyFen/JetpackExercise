@@ -1,10 +1,8 @@
 package cn.tommyfen.mvvmsample;
 
-import android.databinding.DataBindingUtil;
-import android.os.Build;
-import android.support.v7.app.AppCompatActivity;
+import androidx.databinding.DataBindingUtil;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
 
 import cn.tommyfen.mvvmsample.databinding.ActivityMainBinding;
 

@@ -1,6 +1,6 @@
 package cn.tommyfen.mvvmsample.view_model;
 
-import android.databinding.ObservableInt;
+import androidx.databinding.ObservableInt;
 
 /**
  * @author : tommy

@@ -1,8 +1,8 @@
 package cn.tommyfen.mvvmsample.view_model;
 
-import android.databinding.BindingAdapter;
+import androidx.databinding.BindingAdapter;
 import android.graphics.Color;
-import android.support.v4.content.ContextCompat;
+import androidx.core.content.ContextCompat;
 import android.view.View;
 
 import cn.tommyfen.mvvmsample.R;

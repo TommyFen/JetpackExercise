@@ -1,7 +1,7 @@
 package cn.tommyfen.mvvmsample.bean;
 
-import android.databinding.BaseObservable;
-import android.databinding.Bindable;
+import androidx.databinding.BaseObservable;
+import androidx.databinding.Bindable;
 
 import java.io.Serializable;
 
