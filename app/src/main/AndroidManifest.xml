@@ -11,17 +11,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name="com.tommyfen.jetpackexercise.ViewBindingTestActivity">
+        <activity android:name="com.tommyfen.jetpackexercise.lifecycle.LifeCycleExerciseActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name="cn.tommyfen.mvvmsample.MainActivity">
-
+        <activity android:name="com.tommyfen.jetpackexercise.ViewBindingTestActivity">
         </activity>
+        <activity android:name="cn.tommyfen.mvvmsample.MainActivity"></activity>
         <activity
             android:name="cn.tommyfen.mvvmsample.view.LayoutBindExpActivity"
             android:label="LayoutBindExp"
